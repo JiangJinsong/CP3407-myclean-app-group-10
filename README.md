@@ -33,7 +33,7 @@ Initial Project Setup: Created README and added team details.
    - Priority: Medium  
    - Estimation: 2 days
 
-4. **As a customer**, I want to pay for a cleaning session online securely, so that I don't need to pay cash.  
+4. **As a customer**, I want to pay for a cleaning session online securely. 
    - Priority: High  
    - Estimation: 4 days
 
