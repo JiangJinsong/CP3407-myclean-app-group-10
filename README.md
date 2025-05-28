@@ -22,40 +22,46 @@ Initial Project Setup: Created README and added team details.
 ## User Stories (Draft)
 
 1. Title: Cleaner Profile Management
+
    Description: **As a cleaner**, I want to create and manage my service profile, so that customers can view and choose my services.  
    - Priority: High  
    - Estimation: 3 days
 
 2. Title: Customer Booking via Calendar Interface
+
    Description: **As a customer**, I want to book a cleaning service through a calendar interface, so that I can schedule easily.  
    - Priority: High  
    - Estimation: 5 days
 
-4. **As a cleaner**, I want to receive real-time booking notifications, so that I don't miss any requests.  
+3. Title: Cleaner Real-Time Booking Notifications
+
+   Description: **As a cleaner**, I want to receive real-time booking notifications, so that I don't miss any requests.  
    - Priority: Medium  
    - Estimation: 2 days
 
-5. **As a customer**, I want to pay for a cleaning session securely, so that I can my booking conveniently as well as keeping my payment information protected.
+4. Title: Secure Online Payment for Customers
+
+   Description: **As a customer**, I want to pay for a cleaning session securely, so that I can my booking conveniently as well as keeping my       payment information protected.
    - Priority: High  
    - Estimation: 4 days
 
-6. **As a cleaner**, I want to view earnings and statistics, so I can track my performance.  
+8. **As a cleaner**, I want to view earnings and statistics, so I can track my performance.  
    - Priority: Medium  
    - Estimation: 3 days
 
-7. **As a customer**, I want to leave a rating and review after a service, so I can share my experience.  
+9. **As a customer**, I want to leave a rating and review after a service, so I can share my experience.  
    - Priority: Medium  
    - Estimation: 2 days
 
-8. **As a cleaner**, I want to manage my availability calendar, so that bookings match my schedule.  
+10. **As a cleaner**, I want to manage my availability calendar, so that bookings match my schedule.  
    - Priority: High  
    - Estimation: 3 days
 
-9. **As a customer**, I want to contact the cleaner in-app, so that I can ask for special requests.  
+11. **As a customer**, I want to contact the cleaner in-app, so that I can ask for special requests.  
    - Priority: Low  
    - Estimation: 2 days
 
-10. **As an admin**, I want to verify cleaner identities, so that the platform remains trustworthy.  
+11. **As an admin**, I want to verify cleaner identities, so that the platform remains trustworthy.  
    - Priority: Low  
    - Estimation: 4 days
 
