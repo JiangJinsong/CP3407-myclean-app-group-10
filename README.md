@@ -71,7 +71,7 @@ Initial Project Setup: Created README and added team details.
 
 9. Title: Admin Cleaner Identity Verification
 
-   Description: **As an admin**, I want to verify cleaner identities, so that the platform remains trustworthy.  
+   Description: **As an admin**, I want to verify cleaner identities and customer feedbacks, so that the platform remains trustworthy and having reliable cleaners.  
    - Priority: Low  
    - Estimation: 4 days
 
