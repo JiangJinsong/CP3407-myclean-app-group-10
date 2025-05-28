@@ -77,7 +77,7 @@ End:   YYYY-MM-DD
 
 6. Title: Customer Ratings and Reviews
 
-   Description: **As a customer**, I want to leave a rating and review after a service, so I can share my experience.  
+   Description: **As a customer**, I want to leave a rating and review after a service, so I can share my experience and provide information for other clients.  
    - Priority: Medium  
    - Estimation: 2 days
 
