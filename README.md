@@ -1,21 +1,45 @@
-# MyClean App – Team A
+# cp3407-project-v2024 (MyClean App)
 
-This is a project for CP3407 - Software Engineering at James Cook University (Trimester 1, 2025).
+## Project Overview  
+MyClean is a one-stop home cleaning service booking platform. Customers can register, browse available services, place orders, and manage their bookings; administrators can manage services and orders.
 
-## Project Overview
-MyClean is a website/app designed for individual cleaners and cleaning companies to manage bookings, payments, schedules, and customer communication. 
+## Goals  
+- Secure email/password registration and login  
+- Browse and book cleaning services  
+- Booking reminders and post-service ratings  
 
-## Team Members
-- Jiang Jinsong (Project Leader)
-- Juninho Chandra
-- Asmita Sharma
-- Saung Hnin Phyu
+## Team  
+- **Jiang Jinsong** (Project Leader)  
+- **Juninho Chandra** (Frontend Developer)  
+- **Asmita Sharma** (Backend Developer)  
+- **Saung Hnin Phyu** (QA & DevOps)  
 
-## Iteration Schedule
-- Iteration 1: 03 Mar 2025 – 24 Mar 2025
-- Iteration 2: 25 Mar 2025 – 14 Apr 2025
+## Project Planning BEFORE Iteration-1  
+Checklist/TODOs:  
+- Use the supplied GitHub template :contentReference[oaicite:0]{index=0}  
+- Ensure initial commits (setup, docs) are timestamped BEFORE Iteration-1 start  
+- Draft user stories per INVEST criteria (p. 39)  
+- Create more stories than fit into Iterations 1 & 2 to practice prioritization  
 
-Initial Project Setup: Created README and added team details.
+### Initial Backlog Ideas  
+See [initial_backlog_ideas.md](./initial_backlog_ideas.md)
+
+## Iteration 1 [Duration: 3–4 weeks]  
+Start: YYYY-MM-DD  
+End:   YYYY-MM-DD  
+
+… (fill in user stories for Iteration 1) …
+
+## Iteration 2 [Duration: 3–4 weeks]  
+Start: YYYY-MM-DD  
+End:   YYYY-MM-DD  
+
+… (fill in user stories for Iteration 2) …
+
+## Actual Iterations  
+1. [Iteration 1 board](./iteration_1.md)  
+2. [Iteration 2 board](./iteration_2.md)  
+
 
 # Initial Backlog Ideas
 
