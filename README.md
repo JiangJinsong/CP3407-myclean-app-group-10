@@ -1,46 +1,62 @@
-# team-project-task-tracker
-Project repo for Practical 1
-# Project Title: My Clean App
+# MyClean App – Team A
+
+This is a project for CP3407 - Software Engineering at James Cook University (Trimester 1, 2025).
 
 ## Project Overview
-This project is part of Practical 1: Project Setup & GitHub Foundations. The goal is to initialize the project and draft an initial plan based on Agile principles.
+MyClean is a website/app designed for individual cleaners and cleaning companies to manage bookings, payments, schedules, and customer communication. 
 
 ## Team Members
-- **Jiang Jinsong** – Project Leader  
-  Responsible for project planning, backlog prioritization, and communication with the instructor.
+- Jiang Jinsong (Project Leader)
+- Juninho Chandra
+- Asmita Sharma
+- Saung Hnin Phyu
 
-- **Juninho Chandra** – Frontend Developer  
-  Designs and implements user interface components to ensure usability and responsiveness.
+## Iteration Schedule
+- Iteration 1: 03 Mar 2025 – 24 Mar 2025
+- Iteration 2: 25 Mar 2025 – 14 Apr 2025
 
-- **Asmita Sharma** – Backend Developer  
-  Develops core application logic, manages database design, and integrates APIs.
+Initial Project Setup: Created README and added team details.
 
-- **Saung Hnin Phyu** – Quality Assurance & Documentation  
-  Handles testing, bug tracking, and prepares all project documentation and user manuals.
+# Initial Backlog Ideas
 
-## Objective
-- Set up a GitHub repository
-- Practice version control and collaboration
-- Draft early user stories for planning
+## User Stories (Draft)
 
-git clone https://github.com/your-username/team-project-task-tracker.git
-cd team-project-task-tracker
-touch .gitignore
-git add .
-git commit -m "Project Setup"
-git push
+1. **As a cleaner**, I want to create and manage my service profile, so that customers can view and choose my services.  
+   - Priority: High  
+   - Estimation: 3 days
 
-## Initial Backlog Ideas
+2. **As a customer**, I want to book a cleaning service through a calendar interface, so that I can schedule easily.  
+   - Priority: High  
+   - Estimation: 5 days
 
-Below are initial user stories with priorities:
+3. **As a cleaner**, I want to receive real-time booking notifications, so that I don't miss any requests.  
+   - Priority: Medium  
+   - Estimation: 2 days
 
-1. **As a user**, I want to create an account so I can manage my tasks securely. *(P1)*  
-2. **As a user**, I want to log in and out safely to protect my personal data. *(P1)*  
-3. **As a user**, I want to add tasks with a title, description, and due date so I don’t forget them. *(P1)*  
-4. **As a user**, I want to be able to update or delete tasks so I can make changes as needed. *(P2)*  
-5. **As a user**, I want to categorize tasks using custom tags for better organization. *(P3)*  
-6. **As a user**, I want to view tasks in a list or calendar layout so I can plan ahead. *(P2)*  
-7. **As a user**, I want to receive reminders before deadlines to help me stay on track. *(P2)*  
-8. **As an admin**, I want to view all user activity logs to ensure proper system usage. *(P3)*  
-9. **As a user**, I want to mark tasks as completed so I can track my progress. *(P2)*  
-10. **As a team**, we want the app to be responsive and work on both desktop and mobile devices. *(P2)*
+4. **As a customer**, I want to pay for a cleaning session online securely, so that I don't need to pay cash.  
+   - Priority: High  
+   - Estimation: 4 days
+
+5. **As a cleaner**, I want to view earnings and statistics, so I can track my performance.  
+   - Priority: Medium  
+   - Estimation: 3 days
+
+6. **As a customer**, I want to leave a rating and review after a service, so I can share my experience.  
+   - Priority: Medium  
+   - Estimation: 2 days
+
+7. **As a cleaner**, I want to manage my availability calendar, so that bookings match my schedule.  
+   - Priority: High  
+   - Estimation: 3 days
+
+8. **As a customer**, I want to contact the cleaner in-app, so that I can ask for special requests.  
+   - Priority: Low  
+   - Estimation: 2 days
+
+9. **As an admin**, I want to verify cleaner identities, so that the platform remains trustworthy.  
+   - Priority: Low  
+   - Estimation: 4 days
+
+10. **As a customer**, I want to see eco-friendly cleaning options, so I can make sustainable choices.  
+   - Priority: Low  
+   - Estimation: 2 days
