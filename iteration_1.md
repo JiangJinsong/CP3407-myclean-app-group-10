@@ -23,4 +23,7 @@
   - US03 (moved to Iteration 2)  
 
 ## Lessons Learned
-- …
+- ## Lessons Learned
+- Daily standup improved team coordination.
+- Need clearer API naming conventions upfront.
+
