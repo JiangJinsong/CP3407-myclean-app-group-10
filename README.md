@@ -6,9 +6,8 @@ Project repo for Practical 1
 This project is part of Practical 1: Project Setup & GitHub Foundations. The goal is to initialize the project and draft an initial plan based on Agile principles.
 
 ## Team Members
-- Zhang San (Project Leader)
-- Li Si (Developer)
-- Wang Wu (Tester)
+- Jiang Jinsong (Project Leader)
+
 
 ## Objective
 - Set up a GitHub repository
