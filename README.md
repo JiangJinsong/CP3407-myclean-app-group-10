@@ -1,6 +1,6 @@
 # team-project-task-tracker
 Project repo for Practical 1
-# Project Title: Task Tracker App
+# Project Title: My Clean App
 
 ## Project Overview
 This project is part of Practical 1: Project Setup & GitHub Foundations. The goal is to initialize the project and draft an initial plan based on Agile principles.
