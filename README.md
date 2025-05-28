@@ -60,3 +60,7 @@ Initial Project Setup: Created README and added team details.
 10. **As a customer**, I want to see eco-friendly cleaning options, so I can make sustainable choices.  
    - Priority: Low  
    - Estimation: 2 days
+
+git add README.md docs/initial_backlog.md
+git commit -m "Added Initial Backlog Ideas with user stories"
+git push origin main
