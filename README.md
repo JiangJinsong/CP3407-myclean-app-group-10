@@ -45,27 +45,39 @@ Initial Project Setup: Created README and added team details.
    - Priority: High  
    - Estimation: 4 days
 
-8. **As a cleaner**, I want to view earnings and statistics, so I can track my performance.  
+5. Title: Cleaner Earnings and Statistics Dashboard
+
+   Description: **As a cleaner**, I want to view earnings and statistics, so I can track my performance.  
    - Priority: Medium  
    - Estimation: 3 days
 
-9. **As a customer**, I want to leave a rating and review after a service, so I can share my experience.  
+6. Title: Customer Ratings and Reviews
+
+   Description: **As a customer**, I want to leave a rating and review after a service, so I can share my experience.  
    - Priority: Medium  
    - Estimation: 2 days
 
-10. **As a cleaner**, I want to manage my availability calendar, so that bookings match my schedule.  
+7. Title: Cleaner Availability Calendar Management
+
+   Description: **As a cleaner**, I want to manage my availability calendar, so that bookings match my schedule.  
    - Priority: High  
    - Estimation: 3 days
 
-11. **As a customer**, I want to contact the cleaner in-app, so that I can ask for special requests.  
+8. Title: In-App Messaging Between Customer and Cleaner
+
+   Description: **As a customer**, I want to contact the cleaner in-app, so that I can ask for special requests.  
    - Priority: Low  
    - Estimation: 2 days
 
-11. **As an admin**, I want to verify cleaner identities, so that the platform remains trustworthy.  
+9. Title: Admin Cleaner Identity Verification
+
+   Description: **As an admin**, I want to verify cleaner identities, so that the platform remains trustworthy.  
    - Priority: Low  
    - Estimation: 4 days
 
-11. **As a customer**, I want to see eco-friendly cleaning options, so I can make sustainable choices.  
+10. Title: Eco-Friendly Cleaning Options for Customers
+
+   Description: **As a customer**, I want to see eco-friendly cleaning options, so I can make sustainable choices.  
    - Priority: Low  
    - Estimation: 2 days
 
