@@ -39,3 +39,8 @@ End:   YYYY-MM-DD
 ## Actual Iterations  
 1. [Iteration 1 board](./iteration_1.md)  
 2. [Iteration 2 board](./iteration_2.md)  
+
+## Project Plan
+
+- **Backlog & INVEST-compliant stories** → [project-plan.md#user-stories-backlog](./project-plan.md#user-stories-backlog)  
+
