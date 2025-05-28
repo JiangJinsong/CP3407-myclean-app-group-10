@@ -61,6 +61,10 @@ Initial Project Setup: Created README and added team details.
    - Priority: Low  
    - Estimation: 2 days
 
+### Initial Planning
+
+See our [Initial Backlog Ideas](docs/initial_backlog.md) for early user stories and priorities.
+
 git add README.md docs/initial_backlog.md
 git commit -m "Added Initial Backlog Ideas with user stories"
 git push origin main
