@@ -12,7 +12,7 @@
 ## Progress Tracker
 | Date       | Completed Stories         | In-Progress       | Blockers         |
 | ---------- | ------------------------- | ----------------- | ---------------- |
-| 2025-06-02 | —                         | US01              | —                |
+| 2025-05-28 | —                         | US01              | —                |
 | …          | …                         | …                 | …                |
 
 ## Actual Completion
