@@ -1,7 +1,7 @@
 # Project Plan
 
 ## Project Timeline
-- **Iteration 1**: 2025-06-02 to 2025-06-23  
+- **Iteration 1**: 2025-05-28 to 2025-06-23  
 - **Iteration 2**: 2025-06-24 to 2025-07-15  
 
 ## User Stories (Backlog)
