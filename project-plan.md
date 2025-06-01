@@ -18,7 +18,7 @@
 | US08 | Rate Completed Service    | Low      | 1               | As a user, I want to rate a completed service, so that I can provide feedback.            |
 
 ## Iteration 1 Goals (Total Estimate: 9 days)
-Start: 2025-06-02  
+Start: 2025-05-38  
 End:   2025-06-23  
 
 - [ ] **US01 – User Registration**         | Priority: High   | Estimate: 2 days  
