@@ -1,44 +1,98 @@
-# Project Plan
+# Project Planning Phase (Before Iteration 1)
 
-## Project Timeline
-- **Iteration 1**: 2025-05-28 to 2025-06-23  
-- **Iteration 2**: 2025-06-24 to 2025-07-15  
+*(Chapters 1–3: Requirements, Planning, User Stories)*
 
-## User Stories (Backlog)
+All content below must be committed on or before **20 May 2025**, prior to starting Iteration 1 on **21 May 2025**.
 
-| ID   | Title                     | Priority | Estimate (days) | Description                                                             |
-|:----:|:--------------------------|:--------:|:---------------:|:------------------------------------------------------------------------|
-| US01 | User Registration         | High     | 2               | As a new user, I want to register with email and password, so that I can access secure features. |
-| US02 | User Login & Logout       | High     | 1               | As a registered user, I want to log in and out, so that my session remains secure.      |
-| US03 | Browse Cleaning Services  | High     | 3               | As a user, I want to view a catalogue of cleaning services, so that I can choose the right one. |
-| US04 | Book Cleaning Appointment | High     | 3               | As a user, I want to schedule a cleaning by selecting date, time, and service type, so that I can plan ahead. |
-| US05 | View Upcoming Bookings    | Medium   | 2               | As a user, I want to see my upcoming bookings, so that I can manage my schedule.         |
-| US06 | Cancel Booking            | Medium   | 1               | As a user, I want to cancel an upcoming booking, so that I can adjust my plans.          |
-| US07 | Receive Booking Reminders | Low      | 2               | As a user, I want to get notifications before my appointment, so that I don’t miss it.    |
-| US08 | Rate Completed Service    | Low      | 1               | As a user, I want to rate a completed service, so that I can provide feedback.            |
+---
 
-## Iteration 1 Goals (Total Estimate: 9 days)
-Start: 2025-05-38  
-End:   2025-06-23  
+## 1. GitHub Setup
 
-- [ ] **US01 – User Registration**         | Priority: High   | Estimate: 2 days  
-- [ ] **US02 – User Login & Logout**       | Priority: High   | Estimate: 1 day  
-- [ ] **US03 – Browse Cleaning Services**  | Priority: High   | Estimate: 3 days  
-- [ ] **US04 – Book Cleaning Appointment** | Priority: High   | Estimate: 3 days  
+- **Repository Creation**  
+  - Created from the supplied GitHub template (zipped).  
+- **Initial Commits**  
+  1. `README.md` – Contains project overview, goals, and team roles.  
+  2. `project-plan.md` – This planning document.  
+  3. `initial_backlog_ideas.md` – Full backlog of user stories.  
+- **Timestamp Requirement**  
+  - Ensure all three files are committed **before** 21 May 2025.
 
-## Iteration 2 Goals (Total Estimate: 6 days)
-Start: 2025-06-24  
-End:   2025-07-15  
+---
 
-- [ ] **US05 – View Upcoming Bookings**    | Priority: Medium | Estimate: 2 days  
-- [ ] **US06 – Cancel Booking**            | Priority: Medium | Estimate: 1 day  
-- [ ] **US07 – Receive Booking Reminders** | Priority: Low    | Estimate: 2 days  
-- [ ] **US08 – Rate Completed Service**    | Priority: Low    | Estimate: 1 day  
+## 2. INVEST & MoSCoW Criteria
 
-## Backlog Adjustments
-- Move unfinished stories from Iteration 1 to Iteration 2 if needed  
-- Add new stories / reprioritize based on team capacity  
+- **INVEST (p. 39)**:  
+  - **Independent**: Each user story stands alone.  
+  - **Negotiable**: Stories can be split or merged.  
+  - **Valuable**: Each story delivers clear user or business value.  
+  - **Estimable**: Effort can be estimated in days.  
+  - **Small**: Fits within a single iteration (≤ 5 days).  
+  - **Testable**: Acceptance criteria are clear or implied.  
 
-## Retrospectives & Weekly Updates
-- Add brief weekly updates here or in a separate `weekly_updates.md`  
-- After each iteration, record “Lessons Learned” under corresponding section
+- **MoSCoW Prioritization**:  
+  - **Must-have**: Critical for MVP.  
+  - **Should-have**: Important but can slip to later.  
+  - **Could-have**: Optional; can be dropped if necessary.  
+  - **Won’t-have**: Out of scope for this release.
+
+---
+
+## 3. Full Backlog Summary
+
+See `initial_backlog_ideas.md` for the full list of 14 user stories.  
+**Summary Totals:**  
+- Must-have (Stories 1–5): **19 days**  
+- Should-have (Stories 6–8): **7 days**  
+- Could-have/Won’t-have: **20 days**  
+
+Combined Must + Should = **26 days**, which fits within the first two iterations.
+
+---
+
+## 4. Iteration Templates
+
+### 4.1 Iteration 1 (21 May – 10 June 2025)
+
+- **Branch:** `iteration-1`  
+- **Goals & Stories:** Defined in `iteration_1.md` (total estimate: 17 days)  
+- **Deliverables:**  
+  1. UI wireframes → `docs/wireframes/`  
+  2. ER diagram → `docs/db/schema.png`  
+  3. Profile & booking stubs → `src/`  
+  4. Mock payment page → `src/`  
+  5. Unit tests → `tests/`  
+  6. UAT plan → `docs/uat_plan.md`  
+
+### 4.2 Iteration 2 (11 June – 1 July 2025)
+
+- **Branch:** `iteration-2`  
+- **Goals & Stories:** Defined in `iteration_2.md` (total estimate: 11 days)  
+- **Deliverables:**  
+  1. Rating & review feature → `src/`  
+  2. Earnings dashboard → `src/`  
+  3. Messaging feature → `src/`  
+  4. Admin verification stub → `src/`  
+  5. UAT results → `docs/uat_results_iteration2.md`  
+
+---
+
+## 5. Handling Scope Constraints
+
+If capacity is limited, deprioritize/cut the following stories:
+
+```markdown
+### Deprioritized Stories (Scope Cut)
+
+- [ ] **Customer Messaging to Cleaner**  
+  Priority: Could-have | Estimate: 2 days
+
+- [ ] **Admin/Staff Cleaner Verification**  
+  Priority: Could-have | Estimate: 4 days
+
+- [ ] **SMS Reminder for Upcoming Bookings**  
+  Priority: Won’t-have | Estimate: 3 days
+
+- [ ] **Subscription Model for Regular Bookings**  
+  Priority: Won’t-have | Estimate: 5 days
+
+**Total Cut:** 14 days
