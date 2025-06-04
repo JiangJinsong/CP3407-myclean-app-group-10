@@ -25,7 +25,6 @@
 
 ```markdown
 ### Iteration 1 Goals
-
 - [ ] **Cleaner Profile Creation**  
   Priority: Must-have | Estimate: 3 days  
   - *Description:* As a Cleaner, I want to create and update my profile so that Customers can view my information.
