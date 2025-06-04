@@ -1,14 +1,14 @@
 # Iteration 1 Plan – MyClean App
 
-**Duration:** 3 weeks  
-**Start:** Wednesday, 28 May 2025  
+**Duration:** 4 weeks  
+**Start:** Wednesday, 21 May 2025  
 **End:** Tuesday, 17 June 2025
 
 ---
 
 ## 1. GitHub Tracking
 
-- **Branch:** `iteration-1` (branched off `main` before 28 May 2025)  
+- **Branch:** `iteration-1` (branched from `main` on or before 21 May 2025)  
 - **Commits:**  
   - Daily, descriptive messages, for example:  
     - `feat: Add cleaner profile form [Iteration-1]`  
@@ -30,30 +30,26 @@
    - *Description:* As a Cleaner, I want to create and update my profile so that Customers can view my information.  
    - **US #1**
 
-2. **Availability Calendar Management**  
+2. **Customer Browsing of Cleaners**  
+   Priority: Must-have  |  Estimate: 4 days  
+   - *Description:* As a Customer, I want to browse available Cleaners and view their profiles so I can choose the best match.  
+   - **US #2**
+
+3. **Booking via Calendar Interface**  
+   Priority: Must-have  |  Estimate: 5 days  
+   - *Description:* As a Customer, I want to select a date/time in a calendar so that I can schedule a cleaning appointment easily.  
+   - **US #3**
+
+4. **Availability Calendar Management**  
    Priority: Must-have  |  Estimate: 3 days  
    - *Description:* As a Cleaner, I want to set and update my availability calendar so that bookings only occur when I’m free.  
    - **US #4**
 
-3. **Customer Browsing of Cleaners**  
-   Priority: Must-have  |  Estimate: 4 days  
-   - *Description:* As a Customer, I want to browse available Cleaners and view their profiles so that I can choose the best match.  
-   - **US #2**
-
-4. **Booking via Calendar Interface**  
-   Priority: Must-have  |  Estimate: 5 days  
-   - *Description:* As a Customer, I want to select a date/time in a calendar so that I can schedule a booking easily.  
-   - **US #3**
-
 5. **Mock Payment Integration**  
    Priority: Must-have  |  Estimate: 4 days  
-   - *Description:* As a Customer, I want to pay online (mock) so that I don’t have to handle cash.  
+   - *Description:* As a Customer, I want to pay online (mock) so that I don’t have to handle cash during service.  
    - **US #5**
 
-6. **Booking Notification (Email/In-App)**  
-   Priority: Should-have |  Estimate: 2 days  
-   - *Description:* As a Cleaner, I want to receive real-time booking notifications so that I never miss a booking request.  
-   - **US #6**
+**Total Estimate (Iteration 1): 19 days**  
+*(The 20th day is reserved for integration testing and bug fixes.)*
 
-**Total Estimate (Iteration 1): 21 days**  
-*(Some tasks can overlap in a 4-person team. Actual calendar time: 3 weeks.)*
