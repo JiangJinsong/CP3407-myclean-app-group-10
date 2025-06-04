@@ -9,7 +9,7 @@ Customers can register, browse available services, place orders, and manage thei
 Administrators can manage service offerings and orders.
 
 ## Purpose
-Provide users to book an online room cleaning services for convenience.
+Provide users to book an online room cleaning services instead of doing it themselves for convenience.
 
 ## Goals
 - Secure email/password registration and login  
