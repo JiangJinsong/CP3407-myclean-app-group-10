@@ -1,0 +1,75 @@
+<!-- src/public/profile.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cleaner Profile</title>
+</head>
+<body>
+  <h1>Create / Update Cleaner Profile</h1>
+  <form id="profileForm">
+    <label>
+      Name:
+      <input type="text" id="name" required />
+    </label>
+    <br />
+    <label>
+      Email:
+      <input type="email" id="email" required />
+    </label>
+    <br />
+    <label>
+      Description:
+      <br />
+      <textarea id="description" rows="3"></textarea>
+    </label>
+    <br />
+    <label>
+      Services (comma-separated):
+      <input type="text" id="services" placeholder="e.g. Standard,Clean Deep" />
+    </label>
+    <br />
+    <label>
+      Price per hour (USD):
+      <input type="number" id="pricePerHour" step="0.01" required />
+    </label>
+    <br />
+    <button type="submit">Save Profile</button>
+  </form>
+
+  <div id="message"></div>
+
+  <script>
+    document.getElementById('profileForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const name = document.getElementById('name').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const description = document.getElementById('description').value.trim();
+      const services = document.getElementById('services').value
+        .split(',')
+        .map((s) => s.trim())
+        .filter((s) => s !== '');
+      const pricePerHour = parseFloat(document.getElementById('pricePerHour').value);
+
+      const payload = { name, email, description, services, pricePerHour };
+
+      try {
+        const res = await fetch('/api/cleaner', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+        if (res.status === 201) {
+          document.getElementById('message').textContent = 'Cleaner profile created successfully!';
+          document.getElementById('profileForm').reset();
+        } else {
+          document.getElementById('message').textContent = `Error: ${data.error}`;
+        }
+      } catch (error) {
+        document.getElementById('message').textContent = 'Network error.';
+      }
+    });
+  </script>
+</body>
+</html>

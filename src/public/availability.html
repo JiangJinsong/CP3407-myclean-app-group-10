@@ -1,0 +1,85 @@
+<!-- src/public/availability.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Availability Calendar</title>
+</head>
+<body>
+  <h1>Manage Availability Slots</h1>
+
+  <form id="slotForm">
+    <label>
+      Date:
+      <input type="date" id="date" required />
+    </label>
+    <br />
+    <label>
+      Start Time:
+      <input type="time" id="startTime" required />
+    </label>
+    <br />
+    <label>
+      End Time:
+      <input type="time" id="endTime" required />
+    </label>
+    <br />
+    <label>
+      Cleaner ID:
+      <input type="number" id="cleanerId" required />
+    </label>
+    <br />
+    <button type="submit">Add Availability Slot</button>
+  </form>
+
+  <h2>Existing Slots</h2>
+  <ul id="slotsList"></ul>
+
+  <div id="message"></div>
+
+  <script>
+    async function loadSlots() {
+      const res = await fetch('/api/availability');
+      const slots = await res.json();
+      const list = document.getElementById('slotsList');
+      list.innerHTML = '';
+      slots.forEach((slot) => {
+        const li = document.createElement('li');
+        li.textContent = `ID ${slot.id}: Cleaner ${slot.cleanerId} – ${slot.date} (${slot.startTime} to ${slot.endTime})`;
+        list.appendChild(li);
+      });
+    }
+
+    document.getElementById('slotForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const date = document.getElementById('date').value;
+      const startTime = document.getElementById('startTime').value;
+      const endTime = document.getElementById('endTime').value;
+      const cleanerId = parseInt(document.getElementById('cleanerId').value, 10);
+
+      const payload = { date, startTime, endTime, cleanerId };
+
+      try {
+        const res = await fetch('/api/availability', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+        if (res.status === 201) {
+          document.getElementById('message').textContent = 'Availability slot added!';
+          document.getElementById('slotForm').reset();
+          loadSlots();
+        } else {
+          document.getElementById('message').textContent = `Error: ${data.error}`;
+        }
+      } catch (error) {
+        document.getElementById('message').textContent = 'Network error.';
+      }
+    });
+
+    // 初始化时加载现有槽
+    window.addEventListener('DOMContentLoaded', loadSlots);
+  </script>
+</body>
+</html>

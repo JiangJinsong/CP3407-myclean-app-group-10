@@ -1,0 +1,66 @@
+<!-- src/public/payment.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mock Payment</title>
+</head>
+<body>
+  <h1>Mock Payment Page</h1>
+
+  <form id="paymentForm">
+    <label>
+      Booking ID:
+      <input type="number" id="bookingId" required />
+    </label>
+    <br />
+    <label>
+      Card Number:
+      <input type="text" id="cardNumber" placeholder="1234 5678 9012 3456" required />
+    </label>
+    <br />
+    <label>
+      Expiry (MM/YY):
+      <input type="text" id="expiry" placeholder="MM/YY" required />
+    </label>
+    <br />
+    <label>
+      CVC:
+      <input type="text" id="cvc" placeholder="123" required />
+    </label>
+    <br />
+    <button type="submit">Pay Now</button>
+  </form>
+
+  <div id="message"></div>
+
+  <script>
+    document.getElementById('paymentForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const bookingId = parseInt(document.getElementById('bookingId').value, 10);
+      const cardNumber = document.getElementById('cardNumber').value.trim();
+      const expiry = document.getElementById('expiry').value.trim();
+      const cvc = document.getElementById('cvc').value.trim();
+
+      const payload = { bookingId, cardNumber, expiry, cvc };
+
+      try {
+        const res = await fetch('/api/payment', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+        if (res.ok) {
+          document.getElementById('message').textContent = data.message;
+          document.getElementById('paymentForm').reset();
+        } else {
+          document.getElementById('message').textContent = `Error: ${data.error}`;
+        }
+      } catch (error) {
+        document.getElementById('message').textContent = 'Network error.';
+      }
+    });
+  </script>
+</body>
+</html>

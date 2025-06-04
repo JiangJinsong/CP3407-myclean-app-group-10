@@ -1,0 +1,18 @@
+{
+  "name": "myclean-app",
+  "version": "1.0.0",
+  "description": "Iteration 1 stub backend for MyClean App",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  }
+}

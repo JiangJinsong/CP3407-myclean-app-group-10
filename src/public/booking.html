@@ -1,0 +1,84 @@
+<!-- src/public/booking.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Book a Cleaner</title>
+</head>
+<body>
+  <h1>Book a Cleaner</h1>
+
+  <form id="bookingForm">
+    <label>
+      Customer Name:
+      <input type="text" id="customerName" required />
+    </label>
+    <br />
+    <label>
+      Customer Email:
+      <input type="email" id="customerEmail" required />
+    </label>
+    <br />
+    <label>
+      Date:
+      <input type="date" id="date" required />
+    </label>
+    <br />
+    <label>
+      Start Time:
+      <input type="time" id="startTime" required />
+    </label>
+    <br />
+    <label>
+      End Time:
+      <input type="time" id="endTime" required />
+    </label>
+    <br />
+    <label>
+      Cleaner ID:
+      <input type="number" id="cleanerId" required />
+    </label>
+    <br />
+    <label>
+      Amount (USD):
+      <input type="number" id="amount" step="0.01" required />
+    </label>
+    <br />
+    <button type="submit">Submit Booking</button>
+  </form>
+
+  <div id="message"></div>
+
+  <script>
+    document.getElementById('bookingForm').addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const customerName = document.getElementById('customerName').value.trim();
+      const customerEmail = document.getElementById('customerEmail').value.trim();
+      const date = document.getElementById('date').value;
+      const startTime = document.getElementById('startTime').value;
+      const endTime = document.getElementById('endTime').value;
+      const cleanerId = parseInt(document.getElementById('cleanerId').value, 10);
+      const amount = parseFloat(document.getElementById('amount').value);
+
+      const payload = { customerName, customerEmail, date, startTime, endTime, cleanerId, amount };
+
+      try {
+        const res = await fetch('/api/booking', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        const data = await res.json();
+        if (res.status === 201) {
+          document.getElementById('message').textContent = `Booking submitted! ID: ${data.booking.id}`;
+          document.getElementById('bookingForm').reset();
+        } else {
+          document.getElementById('message').textContent = `Error: ${data.error}`;
+        }
+      } catch (error) {
+        document.getElementById('message').textContent = 'Network error.';
+      }
+    });
+  </script>
+</body>
+</html>
