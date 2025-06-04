@@ -80,7 +80,6 @@ Combined Must + Should = **26 days**, which fits within the first two iterations
 
 If capacity is limited, deprioritize/cut the following stories:
 
-```markdown
 ### Deprioritized Stories (Scope Cut)
 
 - [ ] **Customer Messaging to Cleaner**  
