@@ -1,0 +1,18 @@
+{
+  "name": "clearner",
+  "version": "1.0.0",
+  "description": "abc",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "a",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "prisma": "^6.3.1",
+    "sqlite3": "^5.1.7"
+  }
+}
