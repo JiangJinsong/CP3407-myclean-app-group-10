@@ -23,7 +23,6 @@
 
 ## 2. Iteration 1 User Stories
 
-```markdown
 ### Iteration 1 Goals (User Stories)
 
 1. **Cleaner Profile Creation**  
