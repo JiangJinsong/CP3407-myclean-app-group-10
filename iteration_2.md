@@ -1,9 +1,3 @@
-
----
-
-**File: `iteration_2.md`**
-
-```markdown
 # Iteration 2 Plan – MyClean App
 
 **Duration:** 3 weeks  
