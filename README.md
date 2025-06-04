@@ -1,5 +1,8 @@
 # cp3407-project-v2025 (MyClean App)
 
+## Topic
+A Booking and Management Platform for Cleaning Services
+
 ## Project Overview
 MyClean is a one-stop home cleaning service booking platform.  
 Customers can register, browse available services, place orders, and manage their bookings;  
