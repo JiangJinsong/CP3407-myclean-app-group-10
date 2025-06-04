@@ -22,7 +22,6 @@
 
 ## 2. Iteration 2 User Stories
 
-```markdown
 ### Iteration 2 Goals
 
 - [ ] **Rating & Review After Service**  
