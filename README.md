@@ -8,6 +8,9 @@ MyClean is a one-stop home cleaning service booking platform.
 Customers can register, browse available services, place orders, and manage their bookings;  
 Administrators can manage service offerings and orders.
 
+## Purpose
+Provide users to book an online room cleaning services for convenience.
+
 ## Goals
 - Secure email/password registration and login  
 - Browse and book cleaning services  
