@@ -1,42 +1,42 @@
 ## 📋 User Stories (Backlog)
 
-* [ ] **Cleaner Profile Creation**
+* ➢ **Public "About Us" Page**
       
-  **Priority**: High | **Estimate**: 3 days
+  **Priority**: High | **Estimate**: 1 day
 
-  *As a Cleaner, I want to create and update my profile so that Customers can view my information.*
+  *AAs a visitor, I want to read about the cleaning service without logging in so I can understand what the platform offers before signing up.*
 
-* [ ] **Customer Browsing of Cleaners**
+* ➢ **Customer Registration**
       
-  **Priority**: High | **Estimate**: 4 days
+  **Priority**: High | **Estimate**: 1 day
 
-  *As a Customer, I want to browse available Cleaners and view their profiles so I can choose the best match.*
+  *As a new customer, I want to create an account so I can start booking cleaning services.*
 
-* [ ] **Booking via Calendar Interface**
+* ➢ **Customer Login**
       
-  **Priority**: High | **Estimate**: 5 days
+  **Priority**: High | **Estimate**: 1 day
 
-  *As a Customer, I want to select a date/time in a calendar so that I can schedule a cleaning appointment easily.*
-
-* [ ] **Availability Calendar Management**
+  *As a registered customer, I want to securely log in so I can access my account and manage my bookings.*
+  
+* ➢ **Availability Calendar Management**
       
   **Priority**: High | **Estimate**: 3 days
 
   *As a Cleaner, I want to set and update my availability calendar so that bookings only occur when I’m free.*
 
-* [ ] **Mock Payment Integration**
+* ➢ **Mock Payment Integration**
       
   **Priority**: High | **Estimate**: 4 days
 
   *As a Customer, I want to pay online (mock) so that I don’t have to handle cash during service.*
 
-* [ ] **Booking Notification (Email/In-App)**
+* ➢ **Booking Notification (Email/In-App)**
 
   **Priority**: Medium | **Estimate**: 2 days
 
   *As a Cleaner, I want to receive real-time booking notifications so that I never miss a booking request.*
 
-* [ ] **Rating and Review After Service**
+* ➢ **Rating and Review After Service**
       
   **Priority**: Medium | **Estimate**: 2 days
 
@@ -46,15 +46,15 @@
 
 ## 🎯 Iteration 1 Goals
 
-* [ ] **Cleaner Profile Creation**
+* ➢ **Customer Login/Registration**
       
   **Priority**: High | **Estimate**: 3 days
 
-* [ ] **Customer Browsing of Cleaners**
+* ➢ **Customer Browsing of Cleaners**
       
   **Priority**: High | **Estimate**: 4 days
 
-* [ ] **Availability Calendar Management**
+* ➢ **Availability Calendar Management**
       
   **Priority**: High | **Estimate**: 3 days
 
