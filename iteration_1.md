@@ -23,33 +23,34 @@
 
 ## 2. Iteration 1 User Stories
 
-### Iteration 1 Goals (User Stories)
+**User Registration**
+Priority: High | Estimate: 3 days
+Description: Users sign up with email & password
+Note: Essential for new users
+US #1
 
-1. **Cleaner Profile Creation**  
-   Priority: Must-have  |  Estimate: 3 days  
-   - *Description:* As a Cleaner, I want to create and update my profile so that Customers can view my information.  
-   - **US #1**
+**User Login**
+Priority: High | Estimate: 2 days
+Description: Users log in with existing credentials
+Note: Core feature
+US #2
 
-2. **Customer Browsing of Cleaners**  
-   Priority: Must-have  |  Estimate: 4 days  
-   - *Description:* As a Customer, I want to browse available Cleaners and view their profiles so I can choose the best match.  
-   - **US #2**
+**View Services**
+Priority: High | Estimate: 3 days
+Description: Show available cleaning options with filters
+Note: Enables users to browse
+US #3
 
-3. **Booking via Calendar Interface**  
-   Priority: Must-have  |  Estimate: 5 days  
-   - *Description:* As a Customer, I want to select a date/time in a calendar so that I can schedule a cleaning appointment easily.  
-   - **US #3**
+**Book Appointment**
+Priority: High | Estimate: 4 days
+Description: Select date/time and book a service
+Note: Core booking functionality
+US #4
 
-4. **Availability Calendar Management**  
-   Priority: Must-have  |  Estimate: 3 days  
-   - *Description:* As a Cleaner, I want to set and update my availability calendar so that bookings only occur when I’m free.  
-   - **US #4**
+**Real-Time Confirmation**
+Priority: High | Estimate: 2 days
+Description: Show instant booking status
+Note: Keeps users informed
+US #5
 
-5. **Mock Payment Integration**  
-   Priority: Must-have  |  Estimate: 4 days  
-   - *Description:* As a Customer, I want to pay online (mock) so that I don’t have to handle cash during service.  
-   - **US #5**
-
-**Total Estimate (Iteration 1): 19 days**  
-*(The 20th day is reserved for integration testing and bug fixes.)*
-
+**Total Estimated Time: 14 days**
