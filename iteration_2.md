@@ -21,34 +21,31 @@
 
 ---
 
-## 2. Iteration 2 User Stories
+MYcleaner - Iteration 2 User Stories
+**Iteration 2 Goals (User Stories)**
 
-### Iteration 2 Goals (User Stories)
+**Booking History**
+Priority: Medium | Estimate: 3 days
+Description: View past bookings and their statuses
+Note: Adds value for repeat customers
+US #1
 
-7. **Rating and Review After Service**  
-   Priority: Should-have | Estimate: 2 days  
-   - *Description:* As a Customer, I want to leave a rating and review after a completed service so that other Customers can benefit.  
-   - **US #7**
+**View Services (Enhancements)**
+Priority: Medium | Estimate: 2 days
+Description: Improve filters, add details about services
+Note: Better browsing experience
+US #2
 
-8. **Cleaner Earnings Dashboard**  
-   Priority: Should-have | Estimate: 3 days  
-   - *Description:* As a Cleaner, I want to view my earnings and booking statistics so that I can track my income.  
-   - **US #8**
+**Eco-Friendly Badge**
+Priority: Low | Estimate: 2 days
+Description: Show eco-friendly icon for relevant services
+Note: Visual indicator, optional feature
+US #3
 
-9. **Customer Messaging to Cleaner**  
-   Priority: Could-have  | Estimate: 2 days  
-   - *Description:* As a Customer, I want to send a message to my Cleaner in-app so that I can clarify special requirements.  
-   - **US #9**
+**Real-Time Confirmation (Improvements)**
+Priority: Medium | Estimate: 2 days
+Description: Enhance instant confirmation reliability
+Note: Improve user trust
+US #4
 
-10. **Admin/Staff Cleaner Verification**  
-   Priority: Could-have | Estimate: 4 days  
-   - *Description:* As an Admin, I want to verify Cleaner identities so that the platform remains trustworthy.  
-   - **US #10**
-
-11. **Eco-Friendly Service Filter**  
-   Priority: Could-have | Estimate: 2 days  
-   - *Description:* As a Customer, I want to filter for eco-friendly Cleaners so that I can book a sustainable service.  
-   - **US #11**
-
-**Total Estimate (Iteration 2): 13 days**  
-*(Team capacity allows overlap; actual calendar time: 3 weeks.)*
+Total Estimated Time: 9 days
