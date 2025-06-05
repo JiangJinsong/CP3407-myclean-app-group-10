@@ -1,7 +1,3 @@
-Certainly! Here's your content reformatted to match the structure you specified, without rewriting anything:
-
----
-
 ### User Stories (Backlog)
 
 * [ ] **Public "About Us" Page** | Priority: High | Estimate: 1 day
@@ -41,5 +37,3 @@ Certainly! Here's your content reformatted to match the structure you specified,
 * [ ] **Availability Calendar Management** | Priority: High | Estimate: 3 days
 
 **Total Estimate**: 10 days
-
----
