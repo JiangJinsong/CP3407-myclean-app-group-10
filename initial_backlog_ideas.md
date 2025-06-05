@@ -47,14 +47,17 @@
 ## 🎯 Iteration 1 Goals
 
 * [ ] **Cleaner Profile Creation**
+      
   **Priority**: High | **Estimate**: 3 days
 
 * [ ] **Customer Browsing of Cleaners**
+      
   **Priority**: High | **Estimate**: 4 days
 
 * [ ] **Availability Calendar Management**
+      
   **Priority**: High | **Estimate**: 3 days
 
-**🕒 Total Estimate**: **10 days** (adjust based on team capacity)
+**🕒 Total Estimate**: **10 days** 
 
 ---
