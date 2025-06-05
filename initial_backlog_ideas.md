@@ -1,28 +1,46 @@
-# Initial Backlog Ideas – MyClean App
+## 📋 User Stories (Backlog)
 
-Below are seven draft user stories, organized by MoSCoW priority (Must-have, Should-have). Each includes an estimated effort in developer-days.
+* [ ] **Cleaner Profile Creation**
+  **Priority**: High | **Estimate**: 3 days
+  *As a Cleaner, I want to create and update my profile so that Customers can view my information.*
 
-| #  | Title                               | Priority    | Estimate (days) | Description                                                                                     |
-|----|-------------------------------------|-------------|-----------------|-------------------------------------------------------------------------------------------------|
-| 1  | Cleaner Profile Creation            | Must-have   | 3               | As a Cleaner, I want to create and update my profile so that Customers can view my information. |
-| 2  | Customer Browsing of Cleaners       | Must-have   | 4               | As a Customer, I want to browse available Cleaners and view their profiles so I can choose the best match. |
-| 3  | Booking via Calendar Interface      | Must-have   | 5               | As a Customer, I want to select a date/time in a calendar so that I can schedule a cleaning appointment easily. |
-| 4  | Availability Calendar Management    | Must-have   | 3               | As a Cleaner, I want to set and update my availability calendar so that bookings only occur when I’m free. |
-| 5  | Mock Payment Integration            | Must-have   | 4               | As a Customer, I want to pay online (mock) so that I don’t have to handle cash during service. |
-| 6  | Booking Notification (Email/In-App) | Should-have | 2               | As a Cleaner, I want to receive real-time booking notifications so that I never miss a booking request. |
-| 7  | Rating and Review After Service     | Should-have | 2               | As a Customer, I want to leave a rating and review so that future Customers can benefit from my feedback. |
+* [ ] **Customer Browsing of Cleaners**
+  **Priority**: High | **Estimate**: 4 days
+  *As a Customer, I want to browse available Cleaners and view their profiles so I can choose the best match.*
 
-> **INVEST Criteria:**  
-> • Independent: Each user story stands alone.  
-> • Negotiable: Stories can be refined or split.  
-> • Valuable: Each story delivers measurable user or business value.  
-> • Estimable: Effort can be estimated in days.  
-> • Small: Fits within a single iteration (≤ 5 days).  
-> • Testable: Acceptance conditions are clear or implied.
+* [ ] **Booking via Calendar Interface**
+  **Priority**: High | **Estimate**: 5 days
+  *As a Customer, I want to select a date/time in a calendar so that I can schedule a cleaning appointment easily.*
 
-> **Prioritization Totals:**  
-> • Must-have (Stories 1–5) = 3 + 4 + 5 + 3 + 4 = **19 days**  
-> • Should-have (Stories 6–7) = 2 + 2 = **4 days**  
-> • Combined Must + Should = **23 days**
+* [ ] **Availability Calendar Management**
+  **Priority**: High | **Estimate**: 3 days
+  *As a Cleaner, I want to set and update my availability calendar so that bookings only occur when I’m free.*
 
+* [ ] **Mock Payment Integration**
+  **Priority**: High | **Estimate**: 4 days
+  *As a Customer, I want to pay online (mock) so that I don’t have to handle cash during service.*
 
+* [ ] **Booking Notification (Email/In-App)**
+  **Priority**: Medium | **Estimate**: 2 days
+  *As a Cleaner, I want to receive real-time booking notifications so that I never miss a booking request.*
+
+* [ ] **Rating and Review After Service**
+  **Priority**: Medium | **Estimate**: 2 days
+  *As a Customer, I want to leave a rating and review so that future Customers can benefit from my feedback.*
+
+---
+
+## 🎯 Iteration 1 Goals
+
+* [ ] **Cleaner Profile Creation**
+  **Priority**: High | **Estimate**: 3 days
+
+* [ ] **Customer Browsing of Cleaners**
+  **Priority**: High | **Estimate**: 4 days
+
+* [ ] **Availability Calendar Management**
+  **Priority**: High | **Estimate**: 3 days
+
+**🕒 Total Estimate**: **10 days** (adjust based on team capacity)
+
+---
