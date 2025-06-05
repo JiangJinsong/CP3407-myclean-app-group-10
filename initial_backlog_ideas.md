@@ -1,7 +1,9 @@
 ## 📋 User Stories (Backlog)
 
 * [ ] **Cleaner Profile Creation**
+      
   **Priority**: High | **Estimate**: 3 days
+
   *As a Cleaner, I want to create and update my profile so that Customers can view my information.*
 
 * [ ] **Customer Browsing of Cleaners**
