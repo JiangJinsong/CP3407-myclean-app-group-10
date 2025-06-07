@@ -24,28 +24,38 @@
 MYcleaner - Iteration 2 User Stories
 **Iteration 2 Goals (User Stories)**
 
-**Booking History**
-Priority: Medium | Estimate: 3 days
-Description: View past bookings and their statuses
-Note: Adds value for repeat customers
-US #1
+--------------------------------------------------------------------------------------------------------------------
 
-**View Services (Enhancements)**
-Priority: Medium | Estimate: 2 days
-Description: Improve filters, add details about services
-Note: Better browsing experience
-US #2
+### *US #1 – Booking History*
+- **Priority:** Medium  
+- **Estimate:** 3 days  
+- **Description:** View past bookings and their statuses  
+- **Note:** Adds value for repeat customers  
 
-**Eco-Friendly Badge**
-Priority: Low | Estimate: 2 days
-Description: Show eco-friendly icon for relevant services
-Note: Visual indicator, optional feature
-US #3
+---
 
-**Real-Time Confirmation (Improvements)**
-Priority: Medium | Estimate: 2 days
-Description: Enhance instant confirmation reliability
-Note: Improve user trust
-US #4
+### *US #2 – View Services (Enhancements)*
+- **Priority:** Medium  
+- **Estimate:** 2 days  
+- **Description:** Improve filters, add details about services  
+- **Note:** Better browsing experience  
 
-Total Estimated Time: 9 days
+---
+
+### *US #3 – Eco-Friendly Badge*
+- **Priority:** Low  
+- **Estimate:** 2 days  
+- **Description:** Show eco-friendly icon for relevant services  
+- **Note:** Visual indicator, optional feature  
+
+---
+
+### *US #4 – Real-Time Confirmation (Improvements)*
+- **Priority:** Medium  
+- **Estimate:** 2 days  
+- **Description:** Enhance instant confirmation reliability  
+- **Note:** Improve user trust  
+
+---
+
+**🧮 Total Estimated Time: 9 days**
