@@ -34,38 +34,50 @@
 - **Pull Requests:**  
   - Open a PR for each feature branch targeting `iteration-1` (e.g., `feature/booking-calendar` → `iteration-1`).
 
----
+--------------------------------------------------------------------------------------------------------------------------
 
 ## 2. Iteration 1 User Stories
 
-## 1. User Registration
-**Priority: High | Estimate: 3 days**
-**Description:** Users sign up with email & password
-**Note:** Essential for new users
-**US #1**
+--------------------------------------------------------------------------------------------------------------------------
 
-## 2. User Login
-**Priority: High | Estimate: 2 days**
-**Description:** Users log in with existing credentials
-**Note: Core feature**
-**US #2**
+### *US #1 – User Registration*
+- **Priority:** High  
+- **Estimate:** 3 days  
+- **Description:** Users sign up with email & password  
+- **Note:** Essential for new users  
 
-# 3. View Services
-**Priority: High | Estimate: 3 days**
-**Description:** Show available cleaning options with filters
-**Note: Enables users to browse**
-**US #3**
+---
 
-# 4. Book Appointment
-**Priority: High | Estimate: 4 days**
-**Description:** Select date/time and book a service
-**Note: Core booking functionality**
-**US #4**
+### *US #2 – User Login*
+- **Priority:** High  
+- **Estimate:** 2 days  
+- **Description:** Users log in with existing credentials  
+- **Note:** Core feature  
 
-# 5.Real-Time Confirmation
-**Priority: High | Estimate: 2 days**
-**Description:** Show instant booking status
-**Note: Keeps users informed**
-**US #5**
+---
 
-**Total Estimated Time: 14 days**
+### *US #3 – View Services*
+- **Priority:** High  
+- **Estimate:** 3 days  
+- **Description:** Show available cleaning options with filters  
+- **Note:** Enables users to browse  
+
+---
+
+### *US #4 – Book Appointment*
+- **Priority:** High  
+- **Estimate:** 4 days  
+- **Description:** Select date/time and book a service  
+- **Note:** Core booking functionality  
+
+---
+
+### *US #5 – Real-Time Confirmation*
+- **Priority:** High  
+- **Estimate:** 2 days  
+- **Description:** Show instant booking status  
+- **Note:** Keeps users informed  
+
+---------------------------------------------------------------------------------------------------
+
+**🧮 Total Estimated Time: 14 days**
